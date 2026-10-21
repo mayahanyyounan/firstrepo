@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.div1 {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.div2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.project {
+    text-align: center;
+    padding: 20px;
+}
+
+.projects-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.one, .two, .three {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
