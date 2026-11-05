@@ -1,0 +1,12 @@
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
